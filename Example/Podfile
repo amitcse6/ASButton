@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASButton_Example' do
+  pod 'ASButton', :path => '../'
+
+  target 'ASButton_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
