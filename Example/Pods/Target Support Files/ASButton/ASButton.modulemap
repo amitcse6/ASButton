@@ -1,0 +1,6 @@
+framework module ASButton {
+  umbrella header "ASButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

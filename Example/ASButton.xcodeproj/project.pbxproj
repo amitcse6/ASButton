@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0A3F31E4647FF2FB54851C10 /* Pods-ASButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-ASButton_Example/Pods-ASButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5269AB179F593799D7F0C1C1 /* Pods-ASButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASButton_Example.release.xcconfig"; path = "Target Support Files/Pods-ASButton_Example/Pods-ASButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		58DCBCEC4530A0F3864A57C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		58DCBCEC4530A0F3864A57C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ASButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		692D4248676FC1AFE355E2D0 /* Pods-ASButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-ASButton_Tests/Pods-ASButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7ACBB4F4DA30CF971112323D /* Pods_ASButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86BC8F74F4E36BEF0CE5F549 /* ASButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASButton.podspec; path = ../ASButton.podspec; sourceTree = "<group>"; };
+		86BC8F74F4E36BEF0CE5F549 /* ASButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASButton.podspec; path = ../ASButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABF05B4A0AD06A76429C17DB /* Pods_ASButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFAA3BD765AA305C1B52AD02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AFAA3BD765AA305C1B52AD02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C94FCABE043B36EDD53CA400 /* Pods-ASButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ASButton_Tests/Pods-ASButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				C94FCABE043B36EDD53CA400 /* Pods-ASButton_Tests.debug.xcconfig */,
 				692D4248676FC1AFE355E2D0 /* Pods-ASButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
