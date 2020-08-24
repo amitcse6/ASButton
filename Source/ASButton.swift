@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public typealias ASButtonIndex = Int
 public typealias ASButtonSelectionClosure = (ASButtonIndex, String) -> Void
@@ -126,6 +127,13 @@ extension ASButton {
     @discardableResult
     public func setBordeWidth(_ borderWidth: CGFloat) -> ASButton {
         container?.layer.borderWidth = borderWidth
+        return self
+    }
+    
+    @discardableResult
+    public func setCornerRadius(_ cornerRadius: CGFloat) -> ASButton {
+        iscCornerRadius = false
+        container?.layer.cornerRadius = cornerRadius
         return self
     }
 }

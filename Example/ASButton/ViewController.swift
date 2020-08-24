@@ -19,8 +19,9 @@ class ViewController: UIViewController {
         
         button
             .setTintColor(.clear)
-            .setBordeColor(.black) 
+            .setBordeColor(.black)
             .setParam("Update", UIImage(named: "submit-button"), .scaleToFill, { (index, title) in print("index: \(index) title: \(title)") })
+            .setBackgroundColor(UIColor.gray)
     }
     
     override func didReceiveMemoryWarning() {

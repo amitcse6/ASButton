@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public class ASButtonStyleClassic: ASButton { 
     public override init(frame: CGRect) {
