@@ -14,6 +14,7 @@
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		1897DF78C4856A9CE5603C906BD8F6AF /* Pods-ASButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065D8D1B568B92803644F784110A6959 /* Pods-ASButton_Tests-dummy.m */; };
 		1D0A6CDE3595841F61AEE46A3D37B3A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		2812CAAE2500E85300CC9921 /* ASBTextProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812CAAD2500E85300CC9921 /* ASBTextProps.swift */; };
 		28832A2424BAFEA40039FE87 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28832A2224BAFEA40039FE87 /* ASButton.swift */; };
 		28832A2524BAFEA40039FE87 /* ASButtonStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28832A2324BAFEA40039FE87 /* ASButtonStyleClassic.swift */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
@@ -80,6 +81,7 @@
 		262915F517603538B32B55FC17A3C974 /* ASButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASButton.modulemap; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		27E15812DAE85E059A78F83C5056D551 /* Pods-ASButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2812CAAD2500E85300CC9921 /* ASBTextProps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASBTextProps.swift; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		28832A2224BAFEA40039FE87 /* ASButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASButton.swift; sourceTree = "<group>"; };
 		28832A2324BAFEA40039FE87 /* ASButtonStyleClassic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASButtonStyleClassic.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				28832A2224BAFEA40039FE87 /* ASButton.swift */,
+				2812CAAD2500E85300CC9921 /* ASBTextProps.swift */,
 				28832A2324BAFEA40039FE87 /* ASButtonStyleClassic.swift */,
 			);
 			path = Source;
@@ -554,6 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2812CAAE2500E85300CC9921 /* ASBTextProps.swift in Sources */,
 				28832A2524BAFEA40039FE87 /* ASButtonStyleClassic.swift in Sources */,
 				F57D9CB48E530677F8CF0CD823E443CB /* ASButton-dummy.m in Sources */,
 				28832A2424BAFEA40039FE87 /* ASButton.swift in Sources */,

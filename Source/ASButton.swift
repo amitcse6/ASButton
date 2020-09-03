@@ -18,7 +18,7 @@ public class ASButton: UIView {
     public var buttonImageView: UIImageView?
     public var buttonLabel: UILabel?
     
-    public var PADDING: CGFloat = 10
+    public var PADDING: CGFloat = 0
     public var iscCornerRadius = true
     
     public var selectionAction: ASButtonSelectionClosure?
@@ -63,6 +63,45 @@ extension ASButton {
     }
     
     @discardableResult
+    public func setProps(_ value: String?, _ props: ASBTextProps?, _ contentMode: ContentMode?, _ selectionAction: ASButtonSelectionClosure?) -> ASButton {
+        self.selectionAction = selectionAction
+        if let value = value {
+            setButtonTitle(value, nil, nil)
+        }
+        if let image = props?.image {
+            setImage(image, nil)
+        }
+        if let contentMode = contentMode {
+            setContentMode(contentMode)
+        }
+        if let font = props?.font {
+            setFont(font)
+        }
+        if let textColor = props?.textColor {
+            setTitleColor(textColor)
+        }
+        return self
+    }
+    
+    @discardableResult
+    public func setParam(_ value: String?, _ image: UIImage?, _ font: UIFont?, _ contentMode: ContentMode?, _ selectionAction: ASButtonSelectionClosure?) -> ASButton {
+        self.selectionAction = selectionAction
+        if let value = value {
+            setButtonTitle(value, nil, nil)
+        }
+        if let image = image {
+            setImage(image, nil)
+        }
+        if let contentMode = contentMode {
+            setContentMode(contentMode)
+        }
+        if let font = font {
+            setFont(font)
+        }
+        return self
+    }
+    
+    @discardableResult
     public func setParam(_ value: String?, _ image: UIImage?, _ contentMode: ContentMode?, _ selectionAction: ASButtonSelectionClosure?) -> ASButton {
         self.selectionAction = selectionAction
         if let value = value {
@@ -96,6 +135,14 @@ extension ASButton {
         }
         if let contentMode = contentMode {
             setContentMode(contentMode)
+        }
+        return self
+    }
+    
+    @discardableResult
+    public func setFont(_ font: UIFont?) -> ASButton {
+        if let font = font {
+            buttonLabel?.font = font
         }
         return self
     }
